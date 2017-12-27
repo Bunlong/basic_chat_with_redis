@@ -1,0 +1,15 @@
+============================
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
+cd redis-stable
+make
+============================
+
+redis-server
+redis-cli ping
+
+redis-cli
+ping
+
+============================
+https://garydengblog.wordpress.com/2013/06/28/simple-chat-application-using-redis-socket-io-and-node-js/
